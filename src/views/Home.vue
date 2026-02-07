@@ -17,9 +17,9 @@
           <h3>大学物理-基础实验</h3>
         </div>
         <div class="card-content">
-          <a class="report-link" href="/files/单摆法测重力加速度.pdf" @click="handleLink">单摆法测重力加速度</a>
-          <a class="report-link" href="/files/示波器的使用.pdf" @click="handleLink">示波器的使用</a>
-          <a class="report-link" href="/files/钢丝杨氏模量.pdf" @click="handleLink">钢丝杨氏模量</a>
+          <a class="report-link" href="/files/单摆法测重力加速度.pdf">单摆法测重力加速度</a>
+          <a class="report-link" href="/files/示波器的使用.pdf">示波器的使用</a>
+          <a class="report-link" href="/files/钢丝杨氏模量.pdf">钢丝杨氏模量</a>
         </div>
       </div>
 
@@ -29,9 +29,9 @@
           <h3>大学物理-综合实验</h3>
         </div>
         <div class="card-content">
-          <a class="report-link" href="/files/双臂电桥.pdf" @click="handleLink">双臂电桥</a>
-          <a class="report-link" href="/files/F-H实验.pdf" @click="handleLink">F-H实验</a>
-          <a class="report-link" href="/files/单色仪的定标与使用.pdf" @click="handleLink">单色仪的定标与使用</a>
+          <a class="report-link" href="/files/双臂电桥.pdf">双臂电桥</a>
+          <a class="report-link" href="/files/F-H实验.pdf">F-H实验</a>
+          <a class="report-link" href="/files/单色仪的定标与使用.pdf">单色仪的定标与使用</a>
         </div>
       </div>
 
@@ -41,11 +41,11 @@
           <h3>物理创新能力提升实验II</h3>
         </div>
         <div class="card-content">
-          <a class="report-link" href="/files/非平衡电桥的数字化.pdf" @click="handleLink">非平衡电桥的数字化</a>
+          <a class="report-link" href="/files/非平衡电桥的数字化.pdf">非平衡电桥的数字化</a>
           <a class="report-link ppt-link" 
              href="https://kclo4-li.github.io/files/非平衡电桥的数字化-期末报告-陈联宇-李若贤.pptx"
              target="_blank">
-            期末汇报 PPT 
+            期末汇报 PPT (来自💡)
           </a>
           <a class="report-link" 
              href="https://github.com/KClO4-Li/Digitization-of-Unbalanced-Electric-Bridge-YIXIST-and-Arduino" 
@@ -83,9 +83,7 @@
 
 <script setup>
 import { useRunningTime } from '../components/useRunningTime';
-import { useSmartLink } from '../components/useSmartLink';
 const { runningTime } = useRunningTime();
-const { handleLink } = useSmartLink();
 </script>
 
 <style scoped>
