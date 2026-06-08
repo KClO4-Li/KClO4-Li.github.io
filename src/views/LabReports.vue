@@ -76,7 +76,7 @@ const reports = [
     icon: '🚀',
     items: [
       { name: '非平衡电桥的数字化', link: '/files/非平衡电桥的数字化.pdf' },
-      { name: '项目PPT(来自💡)', link: '非平衡电桥的数字化-期末报告-陈联宇-李若贤.pptx'},
+      { name: '项目PPT(来自💡)', link: '/files/非平衡电桥的数字化-期末报告-陈联宇-李若贤.pdf'},
       { name: '项目代码', link: 'https://github.com/KClO4-Li/Digitization-of-Unbalanced-Electric-Bridge-YIXIST-and-Arduino' }
     ]
   }

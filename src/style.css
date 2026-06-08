@@ -20,7 +20,6 @@
   z-index: -1;
   background-color: #1a1a1a;
   
-  /* --- 新增：背景虚化效果 --- */
-  filter: blur(8px);       /* 虚化像素，数值越大越模糊，建议 6px - 10px 之间 */
-  transform: scale(1.03);  /* 稍微放大 3%，完美消除边缘发白的问题 */
+  opacity: 0.7;             /* 适当的透明度 */
+  filter: brightness(1.2) contrast(0.8);
 }
