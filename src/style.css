@@ -1,19 +1,26 @@
- #app {
-   position: relative;
-   height: 100vh;
- }
+#app {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
- #app::before {
-   content: '';
-   position: fixed;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   background-image: url('/images/bg.jpg');
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
-   opacity: 0.5;
-   z-index: -1;
- }
+#app::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/images/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  z-index: -1;
+  background-color: #1a1a1a;
+  
+  /* --- 新增：背景虚化效果 --- */
+  filter: blur(8px);       /* 虚化像素，数值越大越模糊，建议 6px - 10px 之间 */
+  transform: scale(1.03);  /* 稍微放大 3%，完美消除边缘发白的问题 */
+}

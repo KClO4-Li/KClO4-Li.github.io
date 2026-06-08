@@ -1,0 +1,37 @@
+:root {
+  /* --- 修改：让主文字颜色变成柔和的灰白色（避开100%纯白） --- */
+  --text-primary: rgba(220, 225, 230, 0.95); 
+  --text-secondary: rgba(220, 225, 230, 0.7);
+  
+  /* 毛玻璃系统与阴影系统保持不变... */
+  --bg-glass: rgba(20, 25, 30, 0.25);
+  --bg-glass-hover: rgba(30, 35, 40, 0.4);
+  --border-glass: rgba(255, 255, 255, 0.1);
+  --border-glass-hover: rgba(255, 255, 255, 0.25);
+  --shadow-glass: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+  --shadow-hover: 0 12px 40px 0 rgba(0, 0, 0, 0.3);
+  --font-main: system-ui, -apple-system, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  color: var(--text-primary);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  
+  /* --- 新增：全局文字暗灰色立体阴影 --- */
+  /* 参数顺序：水平偏移、垂直偏移、模糊半径、阴影颜色 */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6); 
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
