@@ -2,7 +2,7 @@
 
   <footer class="footer">
 
-```
+
 <div class="footer-content">
 
   <p class="runtime">
@@ -39,7 +39,7 @@
   </div>
 
 </div>
-```
+
 
   </footer>
 
