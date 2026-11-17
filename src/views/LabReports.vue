@@ -71,6 +71,26 @@ const reports = [
     ]
   },
   {
+    title: '粒子物理与原子核物理专业基础实验',
+    desc: '核与粒子物理方向实验',
+    icon: '⚛️',
+    items: [
+      { name: '康普顿散射', link: '/files/康普顿散射.pdf' },
+      { name: '正电子湮没寿命测量', link: '/files/正电子湮没寿命测量.pdf' },
+      { name: '微结构气体探测器X射线成像实验', link: '/files/微结构气体探测器X射线成像实验.pdf' },
+      { name: 'MRPC宇宙线测试实验', link: '/files/MRPC宇宙线测试实验.pdf' },
+      { name: '量子精密测量', link: '/files/量子精密测量.pdf' }
+    ]
+  },
+  {
+    title: '电子线路实验',
+    desc: '电子线路基础实验',
+    icon: '🔌',
+    items: [
+      { name: '差分放大器', link: '/files/差分放大器.pdf' }
+    ]
+  },
+  {
     title: '物理创新能力提升实验II',
     desc: '岩板大二实验课',
     icon: '🚀',
