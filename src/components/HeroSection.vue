@@ -162,23 +162,20 @@ defineProps({
 .hero-tag {
   margin-bottom: 14px;
 
-  color: #8be9fd;
+  color: rgba(255, 255, 255, 0.6);
 
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 .hero-title {
   font-size:
-    clamp(2.5rem, 7vw, 5rem);
+    clamp(2rem, 4.5vw, 3.4rem);
 
-  font-weight: 800;
+  font-weight: 650;
 
   margin-bottom: 18px;
-
-  text-shadow:
-    0 0 20px rgba(255,255,255,0.18);
 }
 
 .hero-subtitle {

@@ -76,7 +76,7 @@ defineProps({
 }
 
 .report-card:hover {
-  transform: translateY(-6px);
+  transform: translateY(-3px);
   border-color: var(--border-glass-hover);
   box-shadow: var(--shadow-hover);
 }

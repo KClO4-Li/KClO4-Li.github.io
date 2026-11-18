@@ -99,6 +99,18 @@ const reports = [
       { name: '项目PPT(来自💡)', link: '/files/非平衡电桥的数字化-期末报告-陈联宇-李若贤.pdf'},
       { name: '项目代码', link: 'https://github.com/KClO4-Li/Digitization-of-Unbalanced-Electric-Bridge-YIXIST-and-Arduino' }
     ]
+  },
+  {
+    title: '使用的prompt和模板',
+    desc: '报告生成 Agent 提示词与 Typst experiment 模板库',
+    icon: '📝',
+    items: [
+      { name: 'prompt.md — 报告生成系统提示词', link: '/prompts/prompt.md' },
+      { name: 'guidelines.md — 核对检查清单', link: '/prompts/guidelines.md' },
+      { name: 'README.md — 使用说明', link: '/prompts/README.md' },
+      { name: 'experiment/l.typ — 模板库入口', link: '/prompts/experiment/l.typ' },
+      { name: 'experiment/typst.toml — 模板包配置', link: '/prompts/experiment/typst.toml' }
+    ]
   }
 ]
 </script>
